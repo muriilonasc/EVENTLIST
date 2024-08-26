@@ -15,7 +15,7 @@ export default function EventCards({ texto, info, iconName, }) {
         <IconComponent 
           name={iconName} 
           size={50}
-          color="#000" 
+          color="#1D1F27" 
           style={styles.icon}
         />
       ) : null}
@@ -27,10 +27,12 @@ const styles = StyleSheet.create({
   card:{
     backgroundColor: 'white',
     padding: 40,
-    borderRadius: '15px',
+    borderRadius: '20px',
     margin:10,
     flexDirection: 'row',
-    justifyContent: 'space-between'
+    justifyContent: 'space-between',
+    borderBottomWidth: 5,
+    borderColor: '#0051FF'
     },
      texto: { 
       fontSize: 30

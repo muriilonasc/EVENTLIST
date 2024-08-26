@@ -12,7 +12,7 @@ export default function TabRoutes(){
             name="Eventos"
             component={Home}
             options={{
-                tabBarIcon:({color, size}) => <Feather name='calendar' color={color} size={size}/>
+                tabBarIcon:({color, size}) => <Feather name='calendar'  color={color} size={size}/>
             }}
             />
 

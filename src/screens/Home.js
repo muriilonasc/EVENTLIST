@@ -5,8 +5,8 @@ import Modal from '../components/Modal';
 import EVENTLIST from '../events/eventList';
 
 export default function App() {
-  const [selectedItem, setSelectedItem] = useState(null); // Estado para o item selecionado
-  const [modalVisible, setModalVisible] = useState(false); // Estado para a visibilidade do modal
+  const [selectedItem, setSelectedItem] = useState(null); 
+  const [modalVisible, setModalVisible] = useState(false); 
 
   const openModal = (item) => {
     setSelectedItem(item);
@@ -49,7 +49,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     justifyContent: 'center',
-    backgroundColor: '#CFD6E0',
+    backgroundColor: '#EEEEEE',
     padding: 8,
   },
 });

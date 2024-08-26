@@ -3,7 +3,9 @@ import { StyleSheet, Text, View } from 'react-native';
 export default function Favorites() {
   return (
       <View style={styles.container}>
-        <Text style={styles.title}>Favoritos</Text>
+        <Text style={styles.texto}>Todos os seus eventos</Text>
+        <Text style={styles.texto}>favoritos</Text>
+        <Text style={styles.texto}>estão aqui!</Text>
       </View>
   );
 }
@@ -15,8 +17,9 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center'
   },
-  title:{
-    fontSize: 22,
-    fontWeight: 'bold'
+  texto:{
+    fontSize: 20,
+    fontWeight: 'light',
+    color: '#1D1F27'
   }
 })
